@@ -15,7 +15,7 @@ enum CryptoError : Error {
 class Webservice {
     func downloadCurrencies(url: URL, completion: @escaping (Result<[Crypto],CryptoError>) -> () ) {
         URLSession.shared.dataTask(with: url) { data, response, error in
-            if let error = error {
+            if let _ = error {
                 completion(.failure(.serverError))
                 return
             } else if let data = data {
