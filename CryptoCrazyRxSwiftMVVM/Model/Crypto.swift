@@ -8,6 +8,6 @@
 import Foundation
 
 struct Crypto : Codable {
-    let currency: String
+    let symbol: String
     let price: String
 }

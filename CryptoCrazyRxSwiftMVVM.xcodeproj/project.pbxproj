@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F1BB5EA2ADF139800A0F72C /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BB5E92ADF139800A0F72C /* Crypto.swift */; };
+		7F1BB5ED2ADF192700A0F72C /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BB5EC2ADF192700A0F72C /* Webservice.swift */; };
 		7F96353A2ADDC8CE00750AE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9635392ADDC8CE00750AE3 /* AppDelegate.swift */; };
 		7F96353C2ADDC8CE00750AE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F96353B2ADDC8CE00750AE3 /* SceneDelegate.swift */; };
 		7F96353E2ADDC8CE00750AE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F96353D2ADDC8CE00750AE3 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		7F1BB5E92ADF139800A0F72C /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		7F1BB5EC2ADF192700A0F72C /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		7F9635362ADDC8CE00750AE3 /* CryptoCrazyRxSwiftMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCrazyRxSwiftMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9635392ADDC8CE00750AE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F96353B2ADDC8CE00750AE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		7F1BB5EB2ADF18E400A0F72C /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				7F1BB5EC2ADF192700A0F72C /* Webservice.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				7F1BB5EA2ADF139800A0F72C /* Crypto.swift in Sources */,
 				7F96353E2ADDC8CE00750AE3 /* ViewController.swift in Sources */,
 				7F96353A2ADDC8CE00750AE3 /* AppDelegate.swift in Sources */,
+				7F1BB5ED2ADF192700A0F72C /* Webservice.swift in Sources */,
 				7F96353C2ADDC8CE00750AE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
